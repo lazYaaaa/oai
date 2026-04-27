@@ -1,0 +1,11 @@
+Reference (no spaces): ΣΕΑΓΑΠΩΠΑΝΤΑ
+
+=== Base (font size 52) ===
+Recognized: ΣΕΑΓΑΠΩΠΑΠΤΑ
+Errors: 1
+Accuracy, %: 91.67
+
+=== Experiment (font size 58) ===
+Recognized: ΣΕΑΓΑΠΩΠΧΤΑ
+Errors: 4
+Accuracy, %: 66.67

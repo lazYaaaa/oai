@@ -1,0 +1,1214 @@
+[
+  {
+    "symbol_index": 1,
+    "hypotheses": [
+      {
+        "symbol": "Σ",
+        "similarity": 1.0
+      },
+      {
+        "symbol": "Ξ",
+        "similarity": 0.947880253393977
+      },
+      {
+        "symbol": "Η",
+        "similarity": 0.9434163972772762
+      },
+      {
+        "symbol": "Π",
+        "similarity": 0.9387383633022816
+      },
+      {
+        "symbol": "Ι",
+        "similarity": 0.9378267014410712
+      },
+      {
+        "symbol": "Ε",
+        "similarity": 0.9360679708273119
+      },
+      {
+        "symbol": "Ω",
+        "similarity": 0.9319979522578494
+      },
+      {
+        "symbol": "Ζ",
+        "similarity": 0.9309076529141215
+      },
+      {
+        "symbol": "Μ",
+        "similarity": 0.9285516682865929
+      },
+      {
+        "symbol": "Ο",
+        "similarity": 0.9217201627382235
+      },
+      {
+        "symbol": "Κ",
+        "similarity": 0.9209191573101074
+      },
+      {
+        "symbol": "Χ",
+        "similarity": 0.9144500789326051
+      },
+      {
+        "symbol": "Β",
+        "similarity": 0.914306975831952
+      },
+      {
+        "symbol": "Φ",
+        "similarity": 0.9123514963841862
+      },
+      {
+        "symbol": "Θ",
+        "similarity": 0.9117823823568271
+      },
+      {
+        "symbol": "Ν",
+        "similarity": 0.8987000591273898
+      },
+      {
+        "symbol": "Ρ",
+        "similarity": 0.8932215228832887
+      },
+      {
+        "symbol": "Ψ",
+        "similarity": 0.8742737279600146
+      },
+      {
+        "symbol": "Δ",
+        "similarity": 0.8662884344732232
+      },
+      {
+        "symbol": "Τ",
+        "similarity": 0.8573509586329279
+      },
+      {
+        "symbol": "Α",
+        "similarity": 0.8542637186537826
+      },
+      {
+        "symbol": "Λ",
+        "similarity": 0.8443144132688282
+      },
+      {
+        "symbol": "Υ",
+        "similarity": 0.8390966805981714
+      },
+      {
+        "symbol": "Γ",
+        "similarity": 0.8366742586266922
+      }
+    ]
+  },
+  {
+    "symbol_index": 2,
+    "hypotheses": [
+      {
+        "symbol": "Ε",
+        "similarity": 0.9824133992926095
+      },
+      {
+        "symbol": "Σ",
+        "similarity": 0.948361425477101
+      },
+      {
+        "symbol": "Κ",
+        "similarity": 0.9433462130593595
+      },
+      {
+        "symbol": "Ζ",
+        "similarity": 0.9372844564886459
+      },
+      {
+        "symbol": "Π",
+        "similarity": 0.935732129081209
+      },
+      {
+        "symbol": "Ο",
+        "similarity": 0.9348524758390679
+      },
+      {
+        "symbol": "Η",
+        "similarity": 0.9348140962676524
+      },
+      {
+        "symbol": "Χ",
+        "similarity": 0.9324169469832291
+      },
+      {
+        "symbol": "Ν",
+        "similarity": 0.9249358839640982
+      },
+      {
+        "symbol": "Ι",
+        "similarity": 0.919152706609673
+      },
+      {
+        "symbol": "Μ",
+        "similarity": 0.9153597427970311
+      },
+      {
+        "symbol": "Ξ",
+        "similarity": 0.9092575326463487
+      },
+      {
+        "symbol": "Ρ",
+        "similarity": 0.9059289304936573
+      },
+      {
+        "symbol": "Ω",
+        "similarity": 0.904448164986697
+      },
+      {
+        "symbol": "Θ",
+        "similarity": 0.8966151999593729
+      },
+      {
+        "symbol": "Φ",
+        "similarity": 0.8931905087315112
+      },
+      {
+        "symbol": "Ψ",
+        "similarity": 0.8904904924994901
+      },
+      {
+        "symbol": "Β",
+        "similarity": 0.8867141403653226
+      },
+      {
+        "symbol": "Τ",
+        "similarity": 0.8800158884241887
+      },
+      {
+        "symbol": "Υ",
+        "similarity": 0.8710862929319971
+      },
+      {
+        "symbol": "Γ",
+        "similarity": 0.8709446210935686
+      },
+      {
+        "symbol": "Α",
+        "similarity": 0.8651272242855156
+      },
+      {
+        "symbol": "Δ",
+        "similarity": 0.8626930497506407
+      },
+      {
+        "symbol": "Λ",
+        "similarity": 0.8568022483939682
+      }
+    ]
+  },
+  {
+    "symbol_index": 3,
+    "hypotheses": [
+      {
+        "symbol": "Α",
+        "similarity": 0.9860642224604647
+      },
+      {
+        "symbol": "Λ",
+        "similarity": 0.9662241455280588
+      },
+      {
+        "symbol": "Δ",
+        "similarity": 0.950112495968464
+      },
+      {
+        "symbol": "Χ",
+        "similarity": 0.9004150310096738
+      },
+      {
+        "symbol": "Ζ",
+        "similarity": 0.8971692320914688
+      },
+      {
+        "symbol": "Ν",
+        "similarity": 0.8776206309562775
+      },
+      {
+        "symbol": "Ο",
+        "similarity": 0.8697214267336999
+      },
+      {
+        "symbol": "Ε",
+        "similarity": 0.8695020668947667
+      },
+      {
+        "symbol": "Η",
+        "similarity": 0.8657953418374946
+      },
+      {
+        "symbol": "Ω",
+        "similarity": 0.8631138985940555
+      },
+      {
+        "symbol": "Σ",
+        "similarity": 0.8618566287578102
+      },
+      {
+        "symbol": "Π",
+        "similarity": 0.8615178732704435
+      },
+      {
+        "symbol": "Μ",
+        "similarity": 0.8612115918661002
+      },
+      {
+        "symbol": "Κ",
+        "similarity": 0.8611690331917836
+      },
+      {
+        "symbol": "Ι",
+        "similarity": 0.8542509162153616
+      },
+      {
+        "symbol": "Ξ",
+        "similarity": 0.8380527311942515
+      },
+      {
+        "symbol": "Β",
+        "similarity": 0.8354113527781349
+      },
+      {
+        "symbol": "Υ",
+        "similarity": 0.8308648508396853
+      },
+      {
+        "symbol": "Θ",
+        "similarity": 0.8308637876049849
+      },
+      {
+        "symbol": "Φ",
+        "similarity": 0.8295389628064325
+      },
+      {
+        "symbol": "Ψ",
+        "similarity": 0.8219826977692548
+      },
+      {
+        "symbol": "Τ",
+        "similarity": 0.821341644159539
+      },
+      {
+        "symbol": "Ρ",
+        "similarity": 0.8178177184022788
+      },
+      {
+        "symbol": "Γ",
+        "similarity": 0.80103481201246
+      }
+    ]
+  },
+  {
+    "symbol_index": 4,
+    "hypotheses": [
+      {
+        "symbol": "Γ",
+        "similarity": 1.0
+      },
+      {
+        "symbol": "Υ",
+        "similarity": 0.8933302275682797
+      },
+      {
+        "symbol": "Ε",
+        "similarity": 0.8815741386745561
+      },
+      {
+        "symbol": "Κ",
+        "similarity": 0.8704570679917883
+      },
+      {
+        "symbol": "Τ",
+        "similarity": 0.8701498525817543
+      },
+      {
+        "symbol": "Ν",
+        "similarity": 0.8567720772189691
+      },
+      {
+        "symbol": "Ρ",
+        "similarity": 0.8551034284028095
+      },
+      {
+        "symbol": "Ψ",
+        "similarity": 0.8496519313430557
+      },
+      {
+        "symbol": "Χ",
+        "similarity": 0.8490476583766271
+      },
+      {
+        "symbol": "Ζ",
+        "similarity": 0.840163779499664
+      },
+      {
+        "symbol": "Ο",
+        "similarity": 0.8399550898622424
+      },
+      {
+        "symbol": "Σ",
+        "similarity": 0.8366742586266922
+      },
+      {
+        "symbol": "Π",
+        "similarity": 0.8359833412642801
+      },
+      {
+        "symbol": "Η",
+        "similarity": 0.829337048932863
+      },
+      {
+        "symbol": "Ι",
+        "similarity": 0.8241102659903917
+      },
+      {
+        "symbol": "Μ",
+        "similarity": 0.8141603807345278
+      },
+      {
+        "symbol": "Ξ",
+        "similarity": 0.8090561108159862
+      },
+      {
+        "symbol": "Θ",
+        "similarity": 0.8061172727682585
+      },
+      {
+        "symbol": "Φ",
+        "similarity": 0.8027595866305012
+      },
+      {
+        "symbol": "Α",
+        "similarity": 0.8006779236186836
+      },
+      {
+        "symbol": "Λ",
+        "similarity": 0.7993555322986324
+      },
+      {
+        "symbol": "Ω",
+        "similarity": 0.7992496443999114
+      },
+      {
+        "symbol": "Β",
+        "similarity": 0.7911833819214041
+      },
+      {
+        "symbol": "Δ",
+        "similarity": 0.7808710344190944
+      }
+    ]
+  },
+  {
+    "symbol_index": 5,
+    "hypotheses": [
+      {
+        "symbol": "Α",
+        "similarity": 0.9860642224604647
+      },
+      {
+        "symbol": "Λ",
+        "similarity": 0.9662241455280588
+      },
+      {
+        "symbol": "Δ",
+        "similarity": 0.950112495968464
+      },
+      {
+        "symbol": "Χ",
+        "similarity": 0.9004150310096738
+      },
+      {
+        "symbol": "Ζ",
+        "similarity": 0.8971692320914688
+      },
+      {
+        "symbol": "Ν",
+        "similarity": 0.8776206309562775
+      },
+      {
+        "symbol": "Ο",
+        "similarity": 0.8697214267336999
+      },
+      {
+        "symbol": "Ε",
+        "similarity": 0.8695020668947667
+      },
+      {
+        "symbol": "Η",
+        "similarity": 0.8657953418374946
+      },
+      {
+        "symbol": "Ω",
+        "similarity": 0.8631138985940555
+      },
+      {
+        "symbol": "Σ",
+        "similarity": 0.8618566287578102
+      },
+      {
+        "symbol": "Π",
+        "similarity": 0.8615178732704435
+      },
+      {
+        "symbol": "Μ",
+        "similarity": 0.8612115918661002
+      },
+      {
+        "symbol": "Κ",
+        "similarity": 0.8611690331917836
+      },
+      {
+        "symbol": "Ι",
+        "similarity": 0.8542509162153616
+      },
+      {
+        "symbol": "Ξ",
+        "similarity": 0.8380527311942515
+      },
+      {
+        "symbol": "Β",
+        "similarity": 0.8354113527781349
+      },
+      {
+        "symbol": "Υ",
+        "similarity": 0.8308648508396853
+      },
+      {
+        "symbol": "Θ",
+        "similarity": 0.8308637876049849
+      },
+      {
+        "symbol": "Φ",
+        "similarity": 0.8295389628064325
+      },
+      {
+        "symbol": "Ψ",
+        "similarity": 0.8219826977692548
+      },
+      {
+        "symbol": "Τ",
+        "similarity": 0.821341644159539
+      },
+      {
+        "symbol": "Ρ",
+        "similarity": 0.8178177184022788
+      },
+      {
+        "symbol": "Γ",
+        "similarity": 0.80103481201246
+      }
+    ]
+  },
+  {
+    "symbol_index": 6,
+    "hypotheses": [
+      {
+        "symbol": "Π",
+        "similarity": 1.0
+      },
+      {
+        "symbol": "Η",
+        "similarity": 0.9793094185450355
+      },
+      {
+        "symbol": "Μ",
+        "similarity": 0.9599962345539323
+      },
+      {
+        "symbol": "Ο",
+        "similarity": 0.9561528705999025
+      },
+      {
+        "symbol": "Ζ",
+        "similarity": 0.9434364705217363
+      },
+      {
+        "symbol": "Σ",
+        "similarity": 0.9387383633022816
+      },
+      {
+        "symbol": "Ν",
+        "similarity": 0.9358597767709755
+      },
+      {
+        "symbol": "Ι",
+        "similarity": 0.935151459864847
+      },
+      {
+        "symbol": "Ξ",
+        "similarity": 0.93440603586594
+      },
+      {
+        "symbol": "Χ",
+        "similarity": 0.93112996488117
+      },
+      {
+        "symbol": "Β",
+        "similarity": 0.9261765440125411
+      },
+      {
+        "symbol": "Θ",
+        "similarity": 0.9252492804039552
+      },
+      {
+        "symbol": "Ρ",
+        "similarity": 0.9248747739449901
+      },
+      {
+        "symbol": "Ε",
+        "similarity": 0.9210364469532106
+      },
+      {
+        "symbol": "Ω",
+        "similarity": 0.9205270748739759
+      },
+      {
+        "symbol": "Φ",
+        "similarity": 0.9194377646173929
+      },
+      {
+        "symbol": "Ψ",
+        "similarity": 0.9141487303660323
+      },
+      {
+        "symbol": "Κ",
+        "similarity": 0.8896348057899893
+      },
+      {
+        "symbol": "Τ",
+        "similarity": 0.8876399532849322
+      },
+      {
+        "symbol": "Υ",
+        "similarity": 0.8603805447453492
+      },
+      {
+        "symbol": "Δ",
+        "similarity": 0.8589405155763933
+      },
+      {
+        "symbol": "Α",
+        "similarity": 0.8536339862829471
+      },
+      {
+        "symbol": "Λ",
+        "similarity": 0.846990915011788
+      },
+      {
+        "symbol": "Γ",
+        "similarity": 0.8359833412642801
+      }
+    ]
+  },
+  {
+    "symbol_index": 7,
+    "hypotheses": [
+      {
+        "symbol": "Ω",
+        "similarity": 1.0
+      },
+      {
+        "symbol": "Ξ",
+        "similarity": 0.9423929474294009
+      },
+      {
+        "symbol": "Μ",
+        "similarity": 0.9419860259948591
+      },
+      {
+        "symbol": "Β",
+        "similarity": 0.9369950007831065
+      },
+      {
+        "symbol": "Η",
+        "similarity": 0.9352857926433094
+      },
+      {
+        "symbol": "Σ",
+        "similarity": 0.9319979522578494
+      },
+      {
+        "symbol": "Θ",
+        "similarity": 0.9307953726898317
+      },
+      {
+        "symbol": "Φ",
+        "similarity": 0.9251094970661851
+      },
+      {
+        "symbol": "Π",
+        "similarity": 0.9205270748739759
+      },
+      {
+        "symbol": "Ο",
+        "similarity": 0.9201271615075748
+      },
+      {
+        "symbol": "Ι",
+        "similarity": 0.9098684548464068
+      },
+      {
+        "symbol": "Ζ",
+        "similarity": 0.9038547759390131
+      },
+      {
+        "symbol": "Ε",
+        "similarity": 0.8924942986101868
+      },
+      {
+        "symbol": "Χ",
+        "similarity": 0.8864060233684349
+      },
+      {
+        "symbol": "Κ",
+        "similarity": 0.8851341952917015
+      },
+      {
+        "symbol": "Δ",
+        "similarity": 0.8794165342953396
+      },
+      {
+        "symbol": "Ν",
+        "similarity": 0.8780715602442588
+      },
+      {
+        "symbol": "Ρ",
+        "similarity": 0.8685346140895014
+      },
+      {
+        "symbol": "Α",
+        "similarity": 0.8533137323825853
+      },
+      {
+        "symbol": "Ψ",
+        "similarity": 0.8523726946767601
+      },
+      {
+        "symbol": "Λ",
+        "similarity": 0.8412042268111819
+      },
+      {
+        "symbol": "Τ",
+        "similarity": 0.8255984929654646
+      },
+      {
+        "symbol": "Υ",
+        "similarity": 0.8079299493753314
+      },
+      {
+        "symbol": "Γ",
+        "similarity": 0.7992496443999114
+      }
+    ]
+  },
+  {
+    "symbol_index": 8,
+    "hypotheses": [
+      {
+        "symbol": "Π",
+        "similarity": 1.0
+      },
+      {
+        "symbol": "Η",
+        "similarity": 0.9793094185450355
+      },
+      {
+        "symbol": "Μ",
+        "similarity": 0.9599962345539323
+      },
+      {
+        "symbol": "Ο",
+        "similarity": 0.9561528705999025
+      },
+      {
+        "symbol": "Ζ",
+        "similarity": 0.9434364705217363
+      },
+      {
+        "symbol": "Σ",
+        "similarity": 0.9387383633022816
+      },
+      {
+        "symbol": "Ν",
+        "similarity": 0.9358597767709755
+      },
+      {
+        "symbol": "Ι",
+        "similarity": 0.935151459864847
+      },
+      {
+        "symbol": "Ξ",
+        "similarity": 0.93440603586594
+      },
+      {
+        "symbol": "Χ",
+        "similarity": 0.93112996488117
+      },
+      {
+        "symbol": "Β",
+        "similarity": 0.9261765440125411
+      },
+      {
+        "symbol": "Θ",
+        "similarity": 0.9252492804039552
+      },
+      {
+        "symbol": "Ρ",
+        "similarity": 0.9248747739449901
+      },
+      {
+        "symbol": "Ε",
+        "similarity": 0.9210364469532106
+      },
+      {
+        "symbol": "Ω",
+        "similarity": 0.9205270748739759
+      },
+      {
+        "symbol": "Φ",
+        "similarity": 0.9194377646173929
+      },
+      {
+        "symbol": "Ψ",
+        "similarity": 0.9141487303660323
+      },
+      {
+        "symbol": "Κ",
+        "similarity": 0.8896348057899893
+      },
+      {
+        "symbol": "Τ",
+        "similarity": 0.8876399532849322
+      },
+      {
+        "symbol": "Υ",
+        "similarity": 0.8603805447453492
+      },
+      {
+        "symbol": "Δ",
+        "similarity": 0.8589405155763933
+      },
+      {
+        "symbol": "Α",
+        "similarity": 0.8536339862829471
+      },
+      {
+        "symbol": "Λ",
+        "similarity": 0.846990915011788
+      },
+      {
+        "symbol": "Γ",
+        "similarity": 0.8359833412642801
+      }
+    ]
+  },
+  {
+    "symbol_index": 9,
+    "hypotheses": [
+      {
+        "symbol": "Α",
+        "similarity": 0.9860642224604647
+      },
+      {
+        "symbol": "Λ",
+        "similarity": 0.9662241455280588
+      },
+      {
+        "symbol": "Δ",
+        "similarity": 0.950112495968464
+      },
+      {
+        "symbol": "Χ",
+        "similarity": 0.9004150310096738
+      },
+      {
+        "symbol": "Ζ",
+        "similarity": 0.8971692320914688
+      },
+      {
+        "symbol": "Ν",
+        "similarity": 0.8776206309562775
+      },
+      {
+        "symbol": "Ο",
+        "similarity": 0.8697214267336999
+      },
+      {
+        "symbol": "Ε",
+        "similarity": 0.8695020668947667
+      },
+      {
+        "symbol": "Η",
+        "similarity": 0.8657953418374946
+      },
+      {
+        "symbol": "Ω",
+        "similarity": 0.8631138985940555
+      },
+      {
+        "symbol": "Σ",
+        "similarity": 0.8618566287578102
+      },
+      {
+        "symbol": "Π",
+        "similarity": 0.8615178732704435
+      },
+      {
+        "symbol": "Μ",
+        "similarity": 0.8612115918661002
+      },
+      {
+        "symbol": "Κ",
+        "similarity": 0.8611690331917836
+      },
+      {
+        "symbol": "Ι",
+        "similarity": 0.8542509162153616
+      },
+      {
+        "symbol": "Ξ",
+        "similarity": 0.8380527311942515
+      },
+      {
+        "symbol": "Β",
+        "similarity": 0.8354113527781349
+      },
+      {
+        "symbol": "Υ",
+        "similarity": 0.8308648508396853
+      },
+      {
+        "symbol": "Θ",
+        "similarity": 0.8308637876049849
+      },
+      {
+        "symbol": "Φ",
+        "similarity": 0.8295389628064325
+      },
+      {
+        "symbol": "Ψ",
+        "similarity": 0.8219826977692548
+      },
+      {
+        "symbol": "Τ",
+        "similarity": 0.821341644159539
+      },
+      {
+        "symbol": "Ρ",
+        "similarity": 0.8178177184022788
+      },
+      {
+        "symbol": "Γ",
+        "similarity": 0.80103481201246
+      }
+    ]
+  },
+  {
+    "symbol_index": 10,
+    "hypotheses": [
+      {
+        "symbol": "Π",
+        "similarity": 0.9638789108190348
+      },
+      {
+        "symbol": "Ο",
+        "similarity": 0.9586542638679407
+      },
+      {
+        "symbol": "Η",
+        "similarity": 0.9577703000385648
+      },
+      {
+        "symbol": "Ν",
+        "similarity": 0.952176989367918
+      },
+      {
+        "symbol": "Μ",
+        "similarity": 0.9509213324196384
+      },
+      {
+        "symbol": "Ζ",
+        "similarity": 0.9341942202719189
+      },
+      {
+        "symbol": "Χ",
+        "similarity": 0.9305957059471737
+      },
+      {
+        "symbol": "Ψ",
+        "similarity": 0.9239393540727983
+      },
+      {
+        "symbol": "Ρ",
+        "similarity": 0.9222988609150173
+      },
+      {
+        "symbol": "Ι",
+        "similarity": 0.9165052672047864
+      },
+      {
+        "symbol": "Θ",
+        "similarity": 0.9152199876546782
+      },
+      {
+        "symbol": "Β",
+        "similarity": 0.9119183800815432
+      },
+      {
+        "symbol": "Σ",
+        "similarity": 0.9102557190930851
+      },
+      {
+        "symbol": "Φ",
+        "similarity": 0.9074334462065043
+      },
+      {
+        "symbol": "Ξ",
+        "similarity": 0.9071813418475367
+      },
+      {
+        "symbol": "Ε",
+        "similarity": 0.9069974008667067
+      },
+      {
+        "symbol": "Ω",
+        "similarity": 0.9046751077516627
+      },
+      {
+        "symbol": "Τ",
+        "similarity": 0.8940697649708644
+      },
+      {
+        "symbol": "Κ",
+        "similarity": 0.875390293103387
+      },
+      {
+        "symbol": "Υ",
+        "similarity": 0.8687573761384072
+      },
+      {
+        "symbol": "Δ",
+        "similarity": 0.8587120030955433
+      },
+      {
+        "symbol": "Α",
+        "similarity": 0.8584768473223909
+      },
+      {
+        "symbol": "Λ",
+        "similarity": 0.8532831479084777
+      },
+      {
+        "symbol": "Γ",
+        "similarity": 0.8325370483284983
+      }
+    ]
+  },
+  {
+    "symbol_index": 11,
+    "hypotheses": [
+      {
+        "symbol": "Τ",
+        "similarity": 1.0
+      },
+      {
+        "symbol": "Ψ",
+        "similarity": 0.9363379371272911
+      },
+      {
+        "symbol": "Υ",
+        "similarity": 0.9351563933189452
+      },
+      {
+        "symbol": "Ν",
+        "similarity": 0.9174385083568377
+      },
+      {
+        "symbol": "Ρ",
+        "similarity": 0.9111755619825622
+      },
+      {
+        "symbol": "Χ",
+        "similarity": 0.8961115773550397
+      },
+      {
+        "symbol": "Π",
+        "similarity": 0.8876399532849322
+      },
+      {
+        "symbol": "Ζ",
+        "similarity": 0.8837652685268284
+      },
+      {
+        "symbol": "Ε",
+        "similarity": 0.8781105462977351
+      },
+      {
+        "symbol": "Ο",
+        "similarity": 0.8755009416006241
+      },
+      {
+        "symbol": "Η",
+        "similarity": 0.8747810614418146
+      },
+      {
+        "symbol": "Γ",
+        "similarity": 0.8701498525817543
+      },
+      {
+        "symbol": "Ι",
+        "similarity": 0.8698159437314589
+      },
+      {
+        "symbol": "Μ",
+        "similarity": 0.8618045870705611
+      },
+      {
+        "symbol": "Σ",
+        "similarity": 0.8573509586329279
+      },
+      {
+        "symbol": "Κ",
+        "similarity": 0.8454912777138631
+      },
+      {
+        "symbol": "Ξ",
+        "similarity": 0.8437987865403951
+      },
+      {
+        "symbol": "Θ",
+        "similarity": 0.8421614424966637
+      },
+      {
+        "symbol": "Φ",
+        "similarity": 0.8406753975026775
+      },
+      {
+        "symbol": "Β",
+        "similarity": 0.8378864284728988
+      },
+      {
+        "symbol": "Ω",
+        "similarity": 0.8255984929654646
+      },
+      {
+        "symbol": "Λ",
+        "similarity": 0.81971413490181
+      },
+      {
+        "symbol": "Α",
+        "similarity": 0.8186443863910495
+      },
+      {
+        "symbol": "Δ",
+        "similarity": 0.8026336738775265
+      }
+    ]
+  },
+  {
+    "symbol_index": 12,
+    "hypotheses": [
+      {
+        "symbol": "Α",
+        "similarity": 0.9860642224604647
+      },
+      {
+        "symbol": "Λ",
+        "similarity": 0.9662241455280588
+      },
+      {
+        "symbol": "Δ",
+        "similarity": 0.950112495968464
+      },
+      {
+        "symbol": "Χ",
+        "similarity": 0.9004150310096738
+      },
+      {
+        "symbol": "Ζ",
+        "similarity": 0.8971692320914688
+      },
+      {
+        "symbol": "Ν",
+        "similarity": 0.8776206309562775
+      },
+      {
+        "symbol": "Ο",
+        "similarity": 0.8697214267336999
+      },
+      {
+        "symbol": "Ε",
+        "similarity": 0.8695020668947667
+      },
+      {
+        "symbol": "Η",
+        "similarity": 0.8657953418374946
+      },
+      {
+        "symbol": "Ω",
+        "similarity": 0.8631138985940555
+      },
+      {
+        "symbol": "Σ",
+        "similarity": 0.8618566287578102
+      },
+      {
+        "symbol": "Π",
+        "similarity": 0.8615178732704435
+      },
+      {
+        "symbol": "Μ",
+        "similarity": 0.8612115918661002
+      },
+      {
+        "symbol": "Κ",
+        "similarity": 0.8611690331917836
+      },
+      {
+        "symbol": "Ι",
+        "similarity": 0.8542509162153616
+      },
+      {
+        "symbol": "Ξ",
+        "similarity": 0.8380527311942515
+      },
+      {
+        "symbol": "Β",
+        "similarity": 0.8354113527781349
+      },
+      {
+        "symbol": "Υ",
+        "similarity": 0.8308648508396853
+      },
+      {
+        "symbol": "Θ",
+        "similarity": 0.8308637876049849
+      },
+      {
+        "symbol": "Φ",
+        "similarity": 0.8295389628064325
+      },
+      {
+        "symbol": "Ψ",
+        "similarity": 0.8219826977692548
+      },
+      {
+        "symbol": "Τ",
+        "similarity": 0.821341644159539
+      },
+      {
+        "symbol": "Ρ",
+        "similarity": 0.8178177184022788
+      },
+      {
+        "symbol": "Γ",
+        "similarity": 0.80103481201246
+      }
+    ]
+  }
+]
