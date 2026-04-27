@@ -51,6 +51,16 @@ def resolve_font() -> ImageFont.FreeTypeFont:
 	return ImageFont.load_default()
 
 
+def trim_binary_whitespace(binary: np.ndarray) -> np.ndarray:
+	ys, xs = np.where(binary > 0)
+	if len(xs) == 0 or len(ys) == 0:
+		return np.zeros((1, 1), dtype=np.uint8)
+
+	x_min, x_max = int(xs.min()), int(xs.max())
+	y_min, y_max = int(ys.min()), int(ys.max())
+	return binary[y_min:y_max + 1, x_min:x_max + 1]
+
+
 def render_symbol(symbol: str, font: ImageFont.ImageFont) -> np.ndarray:
 	img = Image.new("L", CANVAS_SIZE, color=255)
 	draw = ImageDraw.Draw(img)
@@ -63,16 +73,11 @@ def render_symbol(symbol: str, font: ImageFont.ImageFont) -> np.ndarray:
 	draw.text((x, y), symbol, fill=0, font=font)
 
 	arr = np.array(img, dtype=np.uint8)
-	black = arr < THRESHOLD
+	binary = (arr < THRESHOLD).astype(np.uint8)
+	trimmed = trim_binary_whitespace(binary)
 
-	ys, xs = np.where(black)
-	if len(xs) == 0 or len(ys) == 0:
-		return arr
-
-	x_min, x_max = int(xs.min()), int(xs.max())
-	y_min, y_max = int(ys.min()), int(ys.max())
-	cropped = arr[y_min:y_max + 1, x_min:x_max + 1]
-	return cropped
+	# Save as crisp black-on-white symbol with fully removed white border.
+	return np.where(trimmed > 0, 0, 255).astype(np.uint8)
 
 
 def to_binary_mass(arr: np.ndarray) -> np.ndarray:

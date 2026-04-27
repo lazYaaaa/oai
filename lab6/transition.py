@@ -47,6 +47,16 @@ def resolve_font() -> ImageFont.FreeTypeFont:
     return ImageFont.load_default()
 
 
+def trim_binary_whitespace(binary: np.ndarray) -> np.ndarray:
+    ys, xs = np.where(binary > 0)
+    if len(xs) == 0 or len(ys) == 0:
+        return np.zeros((1, 1), dtype=np.uint8)
+
+    x_min, x_max = int(xs.min()), int(xs.max())
+    y_min, y_max = int(ys.min()), int(ys.max())
+    return binary[y_min : y_max + 1, x_min : x_max + 1]
+
+
 def render_text_to_binary(text: str, font: ImageFont.ImageFont, canvas_size: tuple[int, int]) -> np.ndarray:
     img = Image.new("L", canvas_size, color=255)
     draw = ImageDraw.Draw(img)
@@ -70,7 +80,8 @@ def render_text_to_binary(text: str, font: ImageFont.ImageFont, canvas_size: tup
     cropped = arr[y_min : y_max + 1, x_min : x_max + 1]
 
     
-    return (cropped < THRESHOLD).astype(np.uint8)
+    binary = (cropped < THRESHOLD).astype(np.uint8)
+    return trim_binary_whitespace(binary)
 
 
 def save_mono_bmp(binary: np.ndarray, out_path: Path) -> None:
@@ -218,6 +229,7 @@ def save_symbol_crops(binary: np.ndarray, boxes: list[Box], out_dir: Path) -> No
     out_dir.mkdir(parents=True, exist_ok=True)
     for box in boxes:
         crop = binary[box.y1 : box.y2 + 1, box.x1 : box.x2 + 1]
+        crop = trim_binary_whitespace(crop)
         img = np.where(crop > 0, 0, 255).astype(np.uint8)
         Image.fromarray(img, mode="L").save(out_dir / f"char_{box.idx:02d}.png")
 
