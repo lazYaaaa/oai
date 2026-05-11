@@ -1,0 +1,55 @@
+[
+  {
+    "file": "instrument.wav",
+    "sample_rate": 22050,
+    "duration_sec": 7.1978231292517005,
+    "spectrogram_before": "instrument_spectrogram_before.png",
+    "spectrogram_after": "instrument_spectrogram_after.png",
+    "restored_audio": "instrument_restored.wav",
+    "rms_before": 0.16728326678276062,
+    "rms_after": 0.014879078604280949,
+    "noise_profile_rms": 0.0566679947078228,
+    "high_energy_moments": [
+      {
+        "time_sec": 3.494603157043457,
+        "frequency_hz": 785.9619140625,
+        "energy": 591624.0
+      },
+      {
+        "time_sec": 1.8227664232254028,
+        "frequency_hz": 699.8291015625,
+        "energy": 344381.9375
+      },
+      {
+        "time_sec": 2.1362357139587402,
+        "frequency_hz": 785.9619140625,
+        "energy": 296346.25
+      },
+      {
+        "time_sec": 0.6733787059783936,
+        "frequency_hz": 785.9619140625,
+        "energy": 295577.3125
+      },
+      {
+        "time_sec": 2.449705123901367,
+        "frequency_hz": 699.8291015625,
+        "energy": 273259.0
+      },
+      {
+        "time_sec": 0.9868480563163757,
+        "frequency_hz": 699.8291015625,
+        "energy": 258307.75
+      },
+      {
+        "time_sec": 2.658684730529785,
+        "frequency_hz": 441.4306640625,
+        "energy": 226098.671875
+      },
+      {
+        "time_sec": 3.390113353729248,
+        "frequency_hz": 785.9619140625,
+        "energy": 222395.5
+      }
+    ]
+  }
+]
