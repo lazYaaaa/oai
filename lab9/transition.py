@@ -1,13 +1,14 @@
 from __future__ import annotations
 
 import json
-import subprocess
 import wave
 from dataclasses import dataclass
 from pathlib import Path
 
 import matplotlib.pyplot as plt
 import numpy as np
+
+import librosa
 
 SRC_DIR = Path(__file__).resolve().parent / "src"
 OUT_DIR = Path(__file__).resolve().parent / "results"
@@ -21,7 +22,6 @@ NOISE_SUBTRACTION_FACTOR = 1.25
 NOISE_FLOOR = 0.08
 LOCAL_TIME_STEP_SEC = 0.1
 LOCAL_FREQ_STEP_HZ = 45.0
-SUPPORTED_AUDIO_EXTENSIONS = {".wav", ".mp3", ".m4a", ".aac", ".flac", ".ogg", ".wma", ".mp4", ".webm"}
 
 
 @dataclass
@@ -38,49 +38,36 @@ def ensure_directories() -> None:
 
 
 def list_audio_files() -> list[Path]:
-    files = [path for path in sorted(SRC_DIR.iterdir()) if path.is_file() and path.suffix.lower() in SUPPORTED_AUDIO_EXTENSIONS]
-    return [path for path in files if path.is_file()]
+    files = [path for path in sorted(SRC_DIR.iterdir()) if path.is_file() and path.suffix.lower() in {".wav", ".m4a"}]
+    return files
 
 
-def read_wav_mono(path: Path) -> tuple[int, np.ndarray]:
-    with wave.open(str(path), "rb") as wav_file:
-        sample_rate = wav_file.getframerate()
-        channels = wav_file.getnchannels()
-        sample_width = wav_file.getsampwidth()
-        frame_count = wav_file.getnframes()
-        raw = wav_file.readframes(frame_count)
+def read_audio_mono(path: Path) -> tuple[int, np.ndarray]:
+    if path.suffix.lower() == ".wav":
+        with wave.open(str(path), "rb") as wav_file:
+            sample_rate = wav_file.getframerate()
+            channels = wav_file.getnchannels()
+            sample_width = wav_file.getsampwidth()
+            frame_count = wav_file.getnframes()
+            raw = wav_file.readframes(frame_count)
 
-    if sample_width == 1:
-        data = np.frombuffer(raw, dtype=np.uint8).astype(np.float32)
-        data = (data - 128.0) / 128.0
-    elif sample_width == 2:
-        data = np.frombuffer(raw, dtype="<i2").astype(np.float32) / 32768.0
-    elif sample_width == 4:
-        data = np.frombuffer(raw, dtype="<i4").astype(np.float32) / 2147483648.0
+        if sample_width == 1:
+            data = np.frombuffer(raw, dtype=np.uint8).astype(np.float32)
+            data = (data - 128.0) / 128.0
+        elif sample_width == 2:
+            data = np.frombuffer(raw, dtype="<i2").astype(np.float32) / 32768.0
+        elif sample_width == 4:
+            data = np.frombuffer(raw, dtype="<i4").astype(np.float32) / 2147483648.0
+        else:
+            raise ValueError(f"Unsupported WAV sample width: {sample_width}")
+
+        if channels > 1:
+            data = data.reshape(-1, channels).mean(axis=1)
     else:
-        raise ValueError(f"Unsupported WAV sample width: {sample_width}")
-
-    if channels > 1:
-        data = data.reshape(-1, channels).mean(axis=1)
+        data, sample_rate = librosa.load(str(path), sr=None, mono=True)
+        data = data.astype(np.float32)
 
     return sample_rate, data.astype(np.float32)
-
-
-def convert_to_wav(path: Path) -> Path:
-    out_path = TMP_DIR / f"{path.stem}_converted.wav"
-    command = [
-        "ffmpeg",
-        "-y",
-        "-i",
-        str(path),
-        "-ac",
-        "1",
-        "-ar",
-        str(TARGET_SAMPLE_RATE),
-        str(out_path),
-    ]
-    subprocess.run(command, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-    return out_path
 
 
 def resample_signal(samples: np.ndarray, src_rate: int, dst_rate: int) -> np.ndarray:
@@ -104,10 +91,7 @@ def normalize_signal(samples: np.ndarray) -> np.ndarray:
 
 
 def load_audio(path: Path) -> AudioData:
-    if path.suffix.lower() != ".wav":
-        path = convert_to_wav(path)
-
-    sample_rate, samples = read_wav_mono(path)
+    sample_rate, samples = read_audio_mono(path)
     if sample_rate != TARGET_SAMPLE_RATE:
         samples = resample_signal(samples, sample_rate, TARGET_SAMPLE_RATE)
         sample_rate = TARGET_SAMPLE_RATE
@@ -350,7 +334,7 @@ def main() -> None:
     if not audio_files:
         summary = {
             "status": "no_input_files",
-            "message": "Put a recording in lab9/src as .wav or .mp3 and rerun transition.py.",
+            "message": "Put a recording in lab9/src as .wav or .m4a and rerun transition.py.",
         }
         (OUT_DIR / "summary.json").write_text(json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8")
         print(summary["message"])
